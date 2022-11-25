@@ -1,19 +1,29 @@
 import React,{Component} from "react";
 import PropTypes from 'prop-types';
 
-class PropsComponent extends Component{
-        render(){
-            return(
-                <div className="message-container">
-                {this.props.str}
+function PropsComponent(pro){
+        return(
+            <div className="message-container">
+            {/* {this.props.str} */}
+            {pro.str}
+            </div>
+        )
+    }
 
-                </div>
-            )
-        }
 
-}
+// class PropsComponent extends Component{
+//         render(){
+//             return(
+//                 <div className="message-container">
+//                 {this.props.str}
 
-PropsComponent.protoTypes={
+//                 </div>
+//             )
+//         }
+
+// }
+
+PropsComponent.propTypes={
     str: PropTypes.string
 };
 export default PropsComponent;

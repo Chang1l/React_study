@@ -7,7 +7,8 @@ class ChildApp extends Component{
         const{boolVal, numVal,arrVal,nodeVal, obVal}=this.props;    
             return(
                 <div className="ChildApp">
-                <span>불리언값: {boolVal}</span>
+                <span>불리언값: {{boolVal}? 'true' : 'false'}</span>
+                 {boolVal.toString()}
                 <span>숫자형값: {numVal}</span>
                 <span>배열형값: {arrVal}</span>
                 <span>노드형값: {nodeVal}</span>
