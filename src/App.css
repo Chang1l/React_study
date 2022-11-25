@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+font-family: 'nanumsquare';
+
+}
+.hStyle{
+  border: 1px solid #454545;
+
+}
+.black-nav{
+background: black ;width: 100%;
+display: flex; color: white;
+padding: 20px; font-weight: 600; font-size: 20px;
+
+}
+.carousel-item{
+  margin-bottom: 80px;
+}
+.card{
+  margin: 10px;
+
+}
+.nav{
+  background-color: #282c34;
+  font-size: 24px;
+}
