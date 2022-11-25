@@ -13,7 +13,7 @@ class PropsComponent extends Component{
 
 }
 
-PropsComponent.PropTypes={
-    str: PropTypes.string,
+PropsComponent.protoTypes={
+    str: PropTypes.string
 };
 export default PropsComponent;
