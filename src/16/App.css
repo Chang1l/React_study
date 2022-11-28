@@ -33,6 +33,8 @@
 
 
 /*수정 시작*/
+
+.App .likeCnt {color: red; font-size: 20pt;cursor: pointer;}
 .App div.divTitle {
   position:sticky;top:0;left:0;z-index: 999;background-color: #fff; 
   border-bottom: 1px solid #454545;margin-top:30px;padding-bottom: 10px;
@@ -41,6 +43,13 @@
 .App .hTitle a {text-decoration: none; padding: 10px 30px; color: #444;}
 .App .hTitle a:hover {text-decoration: none; color:#ff0000}
 .App .hTitle a:visited {text-decoration: none;}
-.App div.mPa {width:800px; max-width: 100%;margin: 30px auto;}
-.App div.contentDiv { width:100%;font-size: 16pt; margin-top:30px; margin-bottom:30px;}
-.App .divBottom {border-top: 1px solid #454545; text-align: center;}
+.App div.contentDiv {
+  display:flex;justify-content: space-around; 
+  width:1200px;max-width: 100%;margin: 30px auto;
+}
+.App div.itemDiv {  text-align: center; width:30%;max-width: 100%;}
+.App div.imgDiv img {width:100%;max-width:100%;height: 90vh;}
+.App div.divBottom {
+  margin-top: 50px;margin-bottom: 50px; text-align: center; 
+  padding-top:30px;border-top:1px solid #454545;
+}
